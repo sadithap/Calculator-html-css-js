@@ -1,5 +1,5 @@
 .calculator {
-	margin: 50px auto;
+	margin: auto auto;
 	padding: 10px;
 	width: 200px;
 	border: 1px solid #ccc;
@@ -9,17 +9,15 @@
 
 .calculator input[type="text"] {
 	display: block;
-	margin: 10px auto;
 	padding: 5px;
 	width: 90%;
 }
 
 .calculator button {
-	margin: 5px;
 	padding: 10px;
-	width: 40px;
+	width: 100%;
 	height: 40px;
-	font-size: 18px;
+	font-size: 25px;
 	border-radius: 5px;
 	border: 1px solid #ccc;
 	background-color: #fff;
