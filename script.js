@@ -4,12 +4,8 @@ function insertValue(value) {
 	result.value += value;
 }
 
-function clearResult() {
+function allClear() {
 	result.value = "";
-}
-
-function backspace() {
-	result.value = result.value.slice(0, -1);
 }
 
 function calculateResult() {

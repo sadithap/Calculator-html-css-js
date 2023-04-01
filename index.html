@@ -8,37 +8,35 @@
 
 <body>
     <div class="calculator">
-        <table>
+        <input type="text" id="result" disabled>
+            <table>
             <tr>
-                <th colspan="4"><input type="text" id="result" disabled></th>
-            </tr>
-            <tr>
-                <td colspan="2"><button onclick="clearResult()">AC</button></td>
+                <td class="colspan2" colspan="2"><button onclick="allClear()">AC</button></td>
                 <td><button onclick="insertValue('/100')">%</button></td>
-                <td><button onclick="insertValue('/')">÷</button></td>
+                <td><button class="operator" onclick="insertValue('/')">÷</button></td>
             </tr>
             <tr>
                 <td><button onclick="insertValue('7')">7</button></td>
                 <td><button onclick="insertValue('8')">8</button></td>
                 <td><button onclick="insertValue('9')">9</button></td>
-                <td><button onclick="insertValue('*')">x</button></td>
+                <td><button class="operator" onclick="insertValue('*')">x</button></td>
             </tr>
             <tr>
                 <td><button onclick="insertValue('4')">4</button></td>
                 <td><button onclick="insertValue('5')">5</button></td>
                 <td><button onclick="insertValue('6')">6</button></td>
-                <td><button onclick="insertValue('-')">-</button></td>
+                <td><button class="operator" onclick="insertValue('-')">-</button></td>
             </tr>
             <tr>
                 <td><button onclick="insertValue('1')">1</button></td>
                 <td><button onclick="insertValue('2')">2</button></td>
                 <td><button onclick="insertValue('3')">3</button></td>
-                <td><button onclick="insertValue('+')">+</button></td>
+                <td><button class="operator" onclick="insertValue('+')">+</button></td>
             </tr>
             <tr>
-                <td colspan="2"><button onclick="insertValue('0')">0</button></td>
+                <td class="colspan2" colspan="2"><button onclick="insertValue('0')">0</button></td>
                 <td><button onclick="insertValue('.')">.</button></td>
-                <td><button onclick="calculateResult()">=</button></td>
+                <td><button class="operator" onclick="calculateResult()">=</button></td>
             </tr>
         </table>
     </div>
